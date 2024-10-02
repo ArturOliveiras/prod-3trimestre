@@ -7,12 +7,12 @@ body {
     margin: 0; /* Remove margens padrão */
 }
 
-.image-container {
+#darksouls {
     display: flex; /* Flexbox para alinhar as imagens */
     gap: 20px; /* Espaçamento entre as imagens */
 }
 
-.image-container img {
+#dark {
     max-width: 200px; /* Largura máxima das imagens */
     height: auto; /* Mantém a proporção */
     border-radius: 10px; /* Bordas arredondadas */

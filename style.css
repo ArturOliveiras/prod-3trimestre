@@ -1,22 +1,20 @@
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
+    background-color: red; /* Define o fundo vermelho */
+    display: flex; /* Usamos flexbox para posicionar as imagens */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Altura total da tela */
+    margin: 0; /* Remove margens padrão */
 }
 
-.site-header, .site-footer {
-    background-color: #f8f9fa;
-    padding: 20px;
-    text-align: center;
+.image-container {
+    display: flex; /* Flexbox para alinhar as imagens */
+    gap: 20px; /* Espaçamento entre as imagens */
 }
 
-.site-main {
-    margin: 20px;
-    padding: 20px;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
+.image-container img {
+    max-width: 200px; /* Largura máxima das imagens */
+    height: auto; /* Mantém a proporção */
+    border-radius: 10px; /* Bordas arredondadas */
+    border: 5px solid white; /* Borda branca de 5px */
 }
